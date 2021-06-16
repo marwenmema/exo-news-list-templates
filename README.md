@@ -78,7 +78,7 @@ A small grid/mosaic of articles, suitable for displaying features articles at th
 
 ### Featured articles with highlight 1:
 
-Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page (two thirds of a page works nice with this) where you want to feature some articles.
+Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page where you want to feature some articles (two thirds of page width works nice with this).
 
 NOTE: This one is an improvement upon the existing (as of this writing) "Latest News" template in eXo Platform.
 
