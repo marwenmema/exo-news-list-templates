@@ -66,7 +66,7 @@ SCREENSHOT (small)
 
 A small grid/mosaic of articles, suitable for displaying features articles at the top of a page at about two thirds of the page width.
 
-NEW HOME SCREENSHOT
+![image](https://user-images.githubusercontent.com/9139631/122273257-23df6480-ced9-11eb-8220-7c5535abcd57.png)
 
 Image slider 2a (main variation displaying article space names)
 
