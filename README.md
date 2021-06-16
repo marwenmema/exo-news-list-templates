@@ -17,13 +17,15 @@ Use the "Issues" tab above, or talk to your eXo solutions consultant (see above)
 * **Clean, pre-fixed and commented code**: Or at least I tried. The idea is to make it transferable to facilitate potential productization.
 * **No external libraries/dependencies**: Relying exclusively on built in eXo Platform resources. (The platform's REST services are leveraged when needed and its built-in JQuery library is invoked when needed. That's it.)
 * **Colors are based on platform theme/branding variables**: Colors used in these templates automatically adapt to your eXo Platform site's theme colors (see eXo's branding feature), thanks to CSS3 variables.
+* **Tooltips** are implemented where needed.
 
+Features that are lacking and that I want to add in the future: Accessibility (ensuring a good accessibility score), loading skeleton effects (I've implemented it successfully in one of the templates and plan to generalize it when time permits)
 
 ## Video demo:
 I introduce the templates in this video:
 
 ## Naming convention:
-The naming of the templates is organized as follows:  
+The names of templates are structured as follows:  
 [Template **type**] + [a number representing **a template** under that type] + [a letter representing **a variation** on the same template]  
 
 For example:
