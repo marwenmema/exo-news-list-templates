@@ -62,7 +62,7 @@ Similar to the above, except this one shows more information (like the article's
 
 ### Featured articles mosaic 1:
 
-A small grid/mosaic of articles, suitable for displaying features articles at the top of a page at about two thirds of the page width.
+A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width.
 
 ![image](https://user-images.githubusercontent.com/9139631/122273257-23df6480-ced9-11eb-8220-7c5535abcd57.png)
 
