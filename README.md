@@ -42,25 +42,21 @@ Displays articles in an automatic slideshow/carousel. The auto slide switching i
 NOTE: This is an improvement upon the existing (as of this writing) "news slider" template in eXo Platform.
 Note: If you (or your client) doesn't like the subtle auto-zoom effect on the images, you can deactivate it (take a look at the CSS code around line 117). My intention was to make the slider feel alive and calling for some attention without being too distracting.
 
-Image slider 1a (main variation)
+* Image slider 1a (main variation)
 
-SCREENSHOT (big)
+![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-Image slide 1b (a variation without article summary)
-
-SCREENSHOT (small)
+* Image slide 1b (a variation without article summary)
 
 ### Image slider 2:
 
 Similar to the above, except this one shows more information (like the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
 
-Image slider 2a (main variation)
+* Image slider 2a (main variation)
 
-SCREENSHOT (big)
+![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
 
-Image slide 2b (a variation without article summary)
-
-SCREENSHOT (small)
+* Image slide 2b (a variation without article summary)
 
 ### Featured articles mosaic 1:
 
@@ -68,24 +64,32 @@ A small grid/mosaic of articles, suitable for displaying features articles at th
 
 ![image](https://user-images.githubusercontent.com/9139631/122273257-23df6480-ced9-11eb-8220-7c5535abcd57.png)
 
-Image slider 2a (main variation displaying article space names)
+* Featured articles mosaic 1a (main variation displaying article space names)
 
-SCREENSHOT (big)
+![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
 
-Image slide 2b (a variation displaying publication dates instead of space names)
+* Featured articles mosaic 1b (a variation displaying publication dates instead of space names)
 
-SCREENSHOT (small)
+* Featured articles mosaic 1c (5 articles instead of 4, with space names)
 
-Image slide 2c (5 articles instead of 4, with space names)
+![image](https://user-images.githubusercontent.com/9139631/122274636-aae10c80-ceda-11eb-857b-f3603bbf9006.png)
 
-SCREENSHOT (small)
-
-Image slide 2d (5 articles instead of 4, with publication date)
-
-SCREENSHOT (small)
+* Featured articles mosaic 1d (5 articles instead of 4, with publication date)
 
 ### Featured articles with highlight 1:
 
 Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page (two thirds of a page works nice with this) where you want to feature some articles.
 
 NOTE: This one is an improvement upon the existing (as of this writing) "Latest News" template in eXo Platform.
+
+* Featured articles with highlight 1a (main variation)
+
+![image](https://user-images.githubusercontent.com/9139631/122275038-2773eb00-cedb-11eb-8812-8aea11fd3194.png)
+
+* Featured articles with highlight 1b (without the small article images for clients who want "less pictures")
+
+![image](https://user-images.githubusercontent.com/9139631/122275264-67d36900-cedb-11eb-8e72-ea57cb47c647.png)
+
+
+
+
