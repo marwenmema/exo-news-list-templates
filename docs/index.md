@@ -1,37 +1,93 @@
-## Welcome to GitHub Pages
+# News list templates for eXo Platform
+A set of content list templates (in GTMPL code format) for displaying eXo Platform news articles.
 
-You can use the [editor on GitHub](https://github.com/marwenmema/exo-news-list-templates/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### How to add/remove/update content list templates in my eXo Platform site?
+As an administrator, go to **Administration > CMS Settings > Templates > List**.  To add a new template, click "**Add template**", go to one of the templates in this repository and copy its code, paste the template code in the "Content" field, write the template name in the "**Name**" fields, leave "Template type" set to "**Content**", and then click "**Save**".
+You will then start to see this template as one of the template options available within the display settings of your content list viewer portlets. 
+For more information, contact your eXo solutions consultant. To discuss your solutions consulting services credit, you may reach out to your eXo client success representative.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How to report issues or propose improvements?
+Use the "Issues" tab above, or talk to your eXo solutions consultant (see above).
 
-### Markdown
+# Overview of the templates:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features:
+* **Cross-browser support** (except IE of course)
+* **Mobile-ready**: The templates are responsive. Their responsiveness is not simply based on viewport (screen) size, but rather on container size! [Skip the following paragraph description if you are not interested in how I implemented this.] This means that they adapt based on the width value of the **area** of the page where you put them instead of the width of the **whole page**. This was VERY important for me because of the nature of these templates. Think about it. They are not static web pages, they are componants that can be placed in varying places and situations (on the header of a page, or squeezed in the narrow right column area of a space's home page, etc...). So their responsive break points need to be based on parent containers. Unfortunately, container-based media queries still do not exist in pure CSS. It's a major lack today in the world of CSS due to it being so tricky to implement (a lot is written on it on the internet explaining that). But it's highly anticipated by developers and we are indeed getting there. Once it becomes popular and well supported by browsers, then we can use it. Meanwhile, the best alternative solution I have found (and have implemented in all of my templates) is this popular one by Philip Walton which relies on very simple vanilla JavaScript and has great browser support today: https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/
+* **Clean, pre-fixed and commented code**: Or at least I tried. The idea is to make it transferable to facilitate potential productization.
+* **No external libraries/dependencies**: Relying exclusively on built in eXo Platform resources. (The platform's REST services are leveraged when needed and its built-in JQuery library is invoked when needed. That's it.)
+* **Colors are based on platform theme/branding variables**: Colors used in these templates automatically adapt to your eXo Platform site's theme colors (see eXo's branding feature), thanks to CSS3 variables.
+* **Tooltips** are implemented where needed.
 
-```markdown
-Syntax highlighted code block
+Features that are lacking and that I want to add in the future: Accessibility (ensuring a good accessibility score), loading skeleton effects (I've implemented it successfully in one of the templates and plan to generalize it when time permits)
 
-# Header 1
-## Header 2
-### Header 3
+## Video demo:
+I introduce the templates in this video:
 
-- Bulleted
-- List
+## Naming convention:
+The names of templates are structured as follows:  
+[Template **type**] + [a number representing **a template** under that type] + [a letter representing **a variation** on the same template]  
 
-1. Numbered
-2. List
+For example:
+* Image slider 1a
+* Image slider 1b
+* Image slider 2a
+* Image slider 2b
+* Article list 1a  and so on...
 
-**Bold** and _Italic_ and `Code` text
+## List of templates & their descriptions:
 
-[Link](url) and ![Image](src)
-```
+### Image slider 1:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Displays articles in an automatic slideshow/carousel. The auto slide switching interval is 10 seconds. You can adjust it in the javascript snippet inside the template (look around line 432).
 
-### Jekyll Themes
+NOTE: This is an improvement upon the existing (as of this writing) "news slider" template in eXo Platform.
+Note: If you (or your client) doesn't like the subtle auto-zoom effect on the images, you can deactivate it (take a look at the CSS code around line 117). My intention was to make the slider feel alive and calling for some attention without being too distracting.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marwenmema/exo-news-list-templates/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Image slider 1a (main variation)
 
-### Support or Contact
+![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* Image slide 1b (a variation without article summary)
+
+### Image slider 2:
+
+Similar to the above, except this one shows more information (like the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
+
+* Image slider 2a (main variation)
+
+![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
+
+* Image slide 2b (a variation without article summary)
+
+### Featured articles mosaic 1:
+
+A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width.
+
+![image](https://user-images.githubusercontent.com/9139631/122273257-23df6480-ced9-11eb-8220-7c5535abcd57.png)
+
+* Featured articles mosaic 1a (main variation displaying article space names)
+
+![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
+
+* Featured articles mosaic 1b (a variation displaying publication dates instead of space names)
+
+* Featured articles mosaic 1c (5 articles instead of 4, with space names)
+
+![image](https://user-images.githubusercontent.com/9139631/122274636-aae10c80-ceda-11eb-857b-f3603bbf9006.png)
+
+* Featured articles mosaic 1d (5 articles instead of 4, with publication date)
+
+### Featured articles with highlight 1:
+
+Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page where you want to feature some articles (two thirds of page width works nice with this).
+
+NOTE: This one is an improvement upon the existing (as of this writing) "Latest News" template in eXo Platform.
+
+* Featured articles with highlight 1a (main variation)
+
+![image](https://user-images.githubusercontent.com/9139631/122275038-2773eb00-cedb-11eb-8812-8aea11fd3194.png)
+
+* Featured articles with highlight 1b (without the small article images for clients who want "less pictures")
+
+![image](https://user-images.githubusercontent.com/9139631/122275264-67d36900-cedb-11eb-8e72-ea57cb47c647.png)
