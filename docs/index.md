@@ -17,6 +17,7 @@ In the [Issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 * **No external libraries/dependencies**: Relying exclusively on built in eXo Platform resources. (The platform's REST services are leveraged when needed and its built-in JQuery library is invoked when needed. That's it.)
 * **Colors are based on platform theme/branding variables**: Colors used in these templates automatically inherit to your eXo Platform site's theme colors (see eXo's branding feature).
 * **Tooltips** are implemented wherever needed.
+* **Variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods. For example: an article list with images, and the same without images. The former for clients who have a more image-focused design approach, and the latter for those with a more info/text-focused minimalistic approach. (From experience I know both preferences exist in the real world, hence the attempt to accomodate them both.)
 
 Features that are lacking and that I want to add in the future and if people tell me they want them:
 
@@ -48,41 +49,67 @@ Displays articles in an automatic slideshow/carousel. The auto slide switching i
 NOTE: This is an improvement upon the existing (as of this writing) "news slider" template in eXo Platform.
 Note: If you (or your client) doesn't like the subtle auto-zoom effect on the images, you can deactivate it (take a look at the CSS code around line 117). My intention was to make the slider feel alive and calling for some attention without being too distracting.
 
-**Image slider 1a** [GET IT HERE]()
+**Image slider 1a**
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-**Image slide 1b** [GET IT HERE]()
+[GET IT HERE]()
+
+**Image slide 1b**
 
 A variation without article summary.
+
+[GET IT HERE]()
 
 ### Image slider 2:
 
 Similar to the above, except this one shows more information (like the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
 
-* Image slider 2a (main variation)
+**Image slider 2a**
 
 ![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
 
-* Image slide 2b (a variation without article summary)
+[GET IT HERE]()
+
+**Image slide 2b**
+
+A variation without article summary.
+
+[GET IT HERE]()
 
 ### Featured articles mosaic 1:
 
-A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width.
+A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width. For example:
 
 ![image](https://user-images.githubusercontent.com/9139631/122273257-23df6480-ced9-11eb-8220-7c5535abcd57.png)
 
-* Featured articles mosaic 1a (main variation displaying article space names)
+**Featured articles mosaic 1a**
+
+Main variation displaying article space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
 
-* Featured articles mosaic 1b (a variation displaying publication dates instead of space names)
+[GET IT HERE]()
 
-* Featured articles mosaic 1c (5 articles instead of 4, with space names)
+**Featured articles mosaic 1b**
+
+A variation displaying publication dates instead of space names.
+
+[GET IT HERE]()
+
+**Featured articles mosaic 1c**
+
+Displays 5 articles instead of 4, with space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274636-aae10c80-ceda-11eb-857b-f3603bbf9006.png)
 
-* Featured articles mosaic 1d (5 articles instead of 4, with publication date)
+[GET IT HERE]()
+
+**Featured articles mosaic 1d**  
+
+Displays 5 articles instead of 4, with publication dates instead of space names.
+
+[GET IT HERE]()
 
 ### Featured articles with highlight 1:
 
@@ -90,10 +117,16 @@ Displays a set of featured articles, with the latest one being more highlighted 
 
 NOTE: This one is an improvement upon the existing (as of this writing) "Latest News" template in eXo Platform.
 
-* Featured articles with highlight 1a (main variation)
+**Featured articles with highlight 1a**
 
 ![image](https://user-images.githubusercontent.com/9139631/122275038-2773eb00-cedb-11eb-8812-8aea11fd3194.png)
 
-* Featured articles with highlight 1b (without the small article images for clients who want "less pictures")
+[GET IT HERE]()
+
+**Featured articles with highlight 1b** 
+
+A variation without the small article images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/122275264-67d36900-cedb-11eb-8e72-ea57cb47c647.png)
+
+[GET IT HERE]()
