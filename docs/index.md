@@ -1,11 +1,11 @@
 # News list templates for eXo Platform
 A set of content list templates (in GTMPL code format) for displaying eXo Platform news articles.
 
-### How to add/remove/update content list templates in my eXo Platform site?
+### How to add content list templates in my eXo Platform site?
 As a functional admin, you can easily add these templates to your eXo Platform site. See [this documentation](https://docs.exoplatform.org/en/6.1/Administration.html#list-templates).  
 For more information and/or help, contact your eXo solutions consultant. To discuss your solutions consulting services credit, you may reach out to your eXo client success representative.
 
-### Where to report issues or propose improvements?
+### Where to report issues or propose improvements for these templates?
 In the [Issues tab](https://github.com/marwenmema/exo-news-list-templates/issues) of this repo. Or talk to your eXo solutions consultant (see above).
 
 # Overview of the templates:
