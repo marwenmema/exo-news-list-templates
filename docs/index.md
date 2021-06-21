@@ -11,14 +11,19 @@ In the [Issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 # Overview of the templates:
 
 ## Features:
-* **Cross-browser support** (except IE of course)
-* **Mobile-ready**: The templates are responsive. Their responsiveness is not simply based on viewport (screen) size, but rather on container size! [Skip the following paragraph description if you are not interested in how I implemented this.] This means that they adapt based on the width value of the **area** of the page where you put them instead of the width of the **whole page**. This was VERY important for me because of the nature of these templates. Think about it. They are not static web pages, they are componants that can be placed in varying places and situations (on the header of a page, or squeezed in the narrow right column area of a space's home page, etc...). So their responsive break points need to be based on parent containers. Unfortunately, container-based media queries still do not exist in pure CSS. It's a major lack today in the world of CSS due to it being so tricky to implement (a lot is written on it on the internet explaining that). But it's highly anticipated by developers and we are indeed getting there. Once it becomes popular and well supported by browsers, then we can use it. Meanwhile, the best alternative solution I have found (and have implemented in all of my templates) is this popular one by Philip Walton which relies on very simple vanilla JavaScript and has great browser support today: https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/
+* **Cross-browser support** (except IE)
+* **Mobile-ready**: The templates are responsive. Their responsiveness is not simply based on viewport (screen) size, but rather on container size! This means that they adapt based on the width value of the **area** of the page where you put them instead of the width of the **whole page**. [Skip the following paragraph description if you are not interested in how I implemented this.] This was a **_very_** important requirement I've set for myself when making these templates due to the nature of how they're used. Think about it: They are not static web page components, they are componants that can be placed in varying places and situations (for example on the header of a page, or squeezed in the narrow right column area of a space's home page, etc...). So their responsive break points need to be based on parent containers. Unfortunately, container-based media queries still do not exist in pure CSS. It's a major lack today in the world of CSS due to it being so tricky to implement (a lot is written on it on the internet explaining that). But it's highly anticipated by developers and we are indeed getting there. Once it becomes popular and well supported by browsers, then we can use it. Meanwhile, the best solution I have found (and have implemented in all of my templates) is this popular one by Philip Walton which relies on very simple vanilla JavaScript and has great browser support today: https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/
 * **Clean, pre-fixed and commented code**: Or at least I tried. The idea is to make it transferable to facilitate potential productization.
 * **No external libraries/dependencies**: Relying exclusively on built in eXo Platform resources. (The platform's REST services are leveraged when needed and its built-in JQuery library is invoked when needed. That's it.)
-* **Colors are based on platform theme/branding variables**: Colors used in these templates automatically inherit to your eXo Platform site's theme colors (see eXo's branding feature), thanks to CSS3 variables.
-* **Tooltips** are implemented where needed.
+* **Colors are based on platform theme/branding variables**: Colors used in these templates automatically inherit to your eXo Platform site's theme colors (see eXo's branding feature).
+* **Tooltips** are implemented wherever needed.
 
-Features that are lacking and that I want to add in the future: Accessibility (ensuring a good accessibility score), loading skeleton effects (I've implemented it successfully in one of the templates and plan to generalize it when time permits)
+Features that are lacking and that I want to add in the future and if people tell me they want them:
+
+* **Accessibility**: i.e. Ensuring a good accessibility score.   
+* **Loading skeleton effects**: I've implemented it successfully in one of the templates and plan to generalize it when time permits and if people are interested.  
+* **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available.  
+* **Multi-lingual support for labels like "See all"**: Right now labels like that are hard coded in the templates. You can change them manually. For true multi-lingual support, I'm leaving that for if these get productized. But then again, something like the "header name" that are exposed in CLV display parameters (and which most of my templates support, so they are not hard-coded) are not multi-lingual by design at this time (product limitation). So there isn't really true multi-lingual support either way.
 
 ## Video demo:
 I introduce the templates in this video:
@@ -43,11 +48,13 @@ Displays articles in an automatic slideshow/carousel. The auto slide switching i
 NOTE: This is an improvement upon the existing (as of this writing) "news slider" template in eXo Platform.
 Note: If you (or your client) doesn't like the subtle auto-zoom effect on the images, you can deactivate it (take a look at the CSS code around line 117). My intention was to make the slider feel alive and calling for some attention without being too distracting.
 
-* Image slider 1a (main variation)
+**Image slider 1a** [GET IT HERE]()
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-* Image slide 1b (a variation without article summary)
+**Image slide 1b** [GET IT HERE]()
+
+A variation without article summary.
 
 ### Image slider 2:
 
