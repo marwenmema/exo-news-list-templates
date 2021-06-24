@@ -56,7 +56,7 @@ Note: If you (or your client) doesn't like the subtle auto-zoom effect on the im
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-### **Image slide 1b** - ([GET IT HERE]())
+### **Image slider 1b** - ([GET IT HERE]())
 
 A variation without article summary.
 
@@ -66,7 +66,7 @@ An image slider/carousel that shows more information (such as the article's spac
 
 ![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
 
-### **Image slide 2b** - ([GET IT HERE]())
+### **Image slider 2b** - ([GET IT HERE]())
 
 A variation without article summary.
 
@@ -256,6 +256,7 @@ It's like what you see on news TV channels.
 Can be linked to an "emergency alerts" kind space and used to show important pinned alerts from it (like announcing unexpected site downtime, etc.) seperately from regular status quo news. If no alerts exist, this component disappears.
 
 Pointing your mouse over the ticker pauses the rolling/animation effect if you want to read the announcement at a slower pace.
+Clicking an alert opens the news article associated with it.
 
 ![gif](https://raw.githubusercontent.com/marwenmema/exo-news-list-templates/main/docs/Critical%20alerts%20ticker%20(GIF%20demo).gif)
 
