@@ -1,10 +1,10 @@
-**# News list templates for eXo Platform**
+# News list templates for eXo Platform
 A set of content list templates (in GTMPL code format) for displaying eXo Platform news articles. They are ready to use—as a functional admin you can add them to your eXo Platform site ([see how](https://docs.exoplatform.org/en/6.1/Administration.html#list-templates)).
 
-**### Where to report issues & propose improvements?**
+### Where to report issues & propose improvements?
 In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues) of this repo. Or talk to your eXo solutions consultant.
 
-**### Features:**
+### Features:
 
 * **CROSS-BROWSER** (except Internet Explorer)
 
@@ -16,23 +16,23 @@ In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 
 * **No external libraries/dependencies**: Relying exclusively on built-in eXo Platform resources. (REST services and built in JQuery library is invoked when needed. That's all.)
 
-* **Colors based on platform theme/branding**: All colors used in these templates automatically inherit your eXo Platform site's defined theme colors (see eXo's branding feature).
+* **Colors based on platform theme/branding**: All main colors used in these templates automatically inherit the platform's theme colors including colors that you personalized using [eXo Platform's branding feature](https://docs.exoplatform.org/en/6.1/Administration.html#branding-exo-platform).
 
 * **Tooltips** are implemented where needed.
 
-* **Template variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods. For example: an article list with images, and the same without images. The former for clients who have a more image-focused design approach, and the latter for those with a more info/text-focused minimalistic approach. (From experience I know both preferences exist in the real world, hence the attempt to accomodate them both.)
+* **Template variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods and template forking. For example: an article list with images, and the same without images. The former is for clients who have a more image-focused aesthetic approach or branding guidelines, and the latter for those with a more info/text-focused minimalistic approach. (Because I know from experience that both preferences exist in the real world.)
 
-Features that are lacking (because I considered them as "nice to have" requirements versus the above which I considered as "must have"). I'll add them if people tell me they're really needed:
+Below are features that are lacking (because I had considered them as "nice to have" requirements versus the above which I had considered as "must have"). I'll add them if people tell me they're really needed:
 
 * **Accessibility**: i.e. ensuring a good accessibility score. (I didn't bother since the platform itself is not accessibility-compliant yet. But I will if it does.)
 * **Loading skeleton effects**: I've implemented it successfully in one of the templates and plan to generalize it when time permits and if people are interested.  
 * **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available (done on purpose). Let me know if you want a placeholder implemented, for which template(s) exactly, and why.
 
-**## Video demo:**
+## VIDEO DEMO:
 
 I introduce the templates in this video: 
 
-**## Template naming convention:**
+## TEMPLAE NAMING CONVENTION:
 
 The names of templates are structured as follows:  
 [Template **type**] + [a number representing **a template** under that type] + [a letter representing **a variation** on the same template]  
@@ -44,7 +44,7 @@ For example:
 * Image slider 2b
 * Article list 1a  and so on...
 
-## List of templates & their descriptions:
+## LIST OF TEMPLATES:
 
 ### **Image slider 1a** - ([GET IT HERE]())
 
