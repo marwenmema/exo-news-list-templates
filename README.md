@@ -47,7 +47,7 @@ For example:
 
 ## LIST OF TEMPLATES:
 
-### **Image slider 1a** - ([GET IT HERE]())
+### **Image slider 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/2afed70e78b355b4e877d20d0fab906724137603/Image%20slider%201/Image%20slider%201a.gtmpl))
 
 Displays articles in an automatic slideshow/carousel. The auto slide switching interval is 10 seconds. You can adjust it in the javascript snippet inside the template (look around line 432).  
 
@@ -56,21 +56,21 @@ Note: If you (or your client) doesn't like the subtle auto-zoom effect on the im
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-### **Image slider 1b** - ([GET IT HERE]())
+### **Image slider 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/906da22452e3f5f879fc928793b1b9da542944e6/Image%20slider%201/Image%20slider%201b.gtmpl))
 
 A variation without article summary.
 
-### **Image slider 2a** - ([GET IT HERE]())
+### **Image slider 2a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/906da22452e3f5f879fc928793b1b9da542944e6/Image%20slider%202/Image%20slider%202a.gtmpl))
 
 An image slider/carousel that shows more information (such as the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
 
 ![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
 
-### **Image slider 2b** - ([GET IT HERE]())
+### **Image slider 2b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/906da22452e3f5f879fc928793b1b9da542944e6/Image%20slider%202/Image%20slider%202b.gtmpl))
 
 A variation without article summary.
 
-### **Featured articles mosaic 1a** - ([GET IT HERE]())
+### **Featured articles mosaic 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201a.gtmpl)
 
 A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width. For example:
 
@@ -80,21 +80,21 @@ The main variation of this templates below includes article space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
 
-### **Featured articles mosaic 1b** - ([GET IT HERE]())
+### **Featured articles mosaic 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201b.gtmpl)
 
 A variation that displays publication dates instead of space names.
 
-### **Featured articles mosaic 1c** - ([GET IT HERE]())
+### **Featured articles mosaic 1c** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201c.gtmpl))
 
 A variation that displays 5 articles instead of 4, with space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274636-aae10c80-ceda-11eb-857b-f3603bbf9006.png)
 
-### **Featured articles mosaic 1d** - ([GET IT HERE]())
+### **Featured articles mosaic 1d** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201d.gtmpl))
 
 Same as above, with publication dates instead of space names.
 
-### **Featured articles with highlight 1a** - ([GET IT HERE]())
+### **Featured articles with highlight 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20with%20highlight%201/Featured%20articles%20with%20highlight%201a.gtmpl))
 
 Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page where you want to feature some articles (two thirds of page width works nice with this).  
 
@@ -102,38 +102,38 @@ NOTE: This one is a remake the existing (as of this writing) "Latest News" templ
 
 ![image](https://user-images.githubusercontent.com/9139631/122275038-2773eb00-cedb-11eb-8812-8aea11fd3194.png)
 
-### **Featured articles with highlight 1b** - ([GET IT HERE]())
+### **Featured articles with highlight 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20with%20highlight%201/Featured%20articles%20with%20highlight%201b.gtmpl))
 
 A variation without the small article images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/122275264-67d36900-cedb-11eb-8e72-ea57cb47c647.png)
 
-### **Featured articles with highlight 2a** - ([GET IT HERE]())
+### **Featured articles with highlight 2a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20with%20highlight%202/Featured%20articles%20with%20highlight%202a.gtmpl))
 
 Similar to the above with a little different positioning of elements.
 
 ![image](https://user-images.githubusercontent.com/9139631/123260717-cad18b00-d4ed-11eb-8b27-ee4b8b7ecc15.png)
 
-### **Featured articles with highlight 2b** - ([GET IT HERE]())
+### **Featured articles with highlight 2b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20with%20highlight%202/Featured%20articles%20with%20highlight%202b.gtmpl))
 
 A variation without the secondary images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/123261123-43d0e280-d4ee-11eb-971f-0ebc9ccb0f50.png)
 
-### **Featured articles with highlight 3a** - ([GET IT HERE]())
+### **Featured articles with highlight 3a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20with%20highlight%203/Featured%20articles%20with%20highlight%203a.gtmpl))
 
 Potentially useful as an alternatif page image header.  
 NOTE: As you reduce the container width, at some point the secondary/right-side article images disappear.
 
 ![image](https://user-images.githubusercontent.com/9139631/123261369-98745d80-d4ee-11eb-9871-8f0fe41afd84.png)
 
-### **Featured articles with highlight 3b** - ([GET IT HERE]())
+### **Featured articles with highlight 3b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20with%20highlight%203/Featured%20articles%20with%20highlight%203b.gtmpl))
 
 A variation with 4 secondary articles instead of 3.
 
 ![image](https://user-images.githubusercontent.com/9139631/123261524-c5c10b80-d4ee-11eb-9d5a-5fb6941ffc2d.png)
 
-### **Article list 1a** - ([GET IT HERE]())
+### **Article list 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%201%20(small%20single%20column)/Article%20list%201a.gtmpl))
 
 Let us now explore different "list" layouts.  
 
@@ -142,26 +142,26 @@ NOTE: If you squeeze it enough (reduce container width), the images will disappe
 
 ![image](https://user-images.githubusercontent.com/9139631/123287731-dd0bf300-d506-11eb-9413-f94536c484a4.png)
 
-### **Article list 1b** - ([GET IT HERE]())
+### **Article list 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%201%20(small%20single%20column)/Article%20list%201b.gtmpl))
 
 A variation of the above without images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/123288292-53a8f080-d507-11eb-888f-bd480e3c6fca.png)
 
-### **Article list 1c** - ([GET IT HERE]())
+### **Article list 1c** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%201%20(small%20single%20column)/Article%20list%201c.gtmpl))
 
 Same concept (small one-column article list), but with __author names__ instead of __space names__. So more suited for displaying news from _a single space_ where it would be redundant to display the same space name over and over again. ;-)  
 NOTE: If you squeeze it enough (reduce container width), the images will disappear.
 
 ![image](https://user-images.githubusercontent.com/9139631/123288853-d631b000-d507-11eb-88e5-d5dcf563a1d6.png)
 
-### **Article list 1d** - ([GET IT HERE]())
+### **Article list 1d** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%201%20(small%20single%20column)/Article%20list%201d.gtmpl))
 
 A variation of the above without images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/123289012-f8c3c900-d507-11eb-8926-3c714fe0c2c8.png)
 
-### **Article list 2a** - ([GET IT HERE]())
+### **Article list 2a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%202%20(small%20multi-column)/Article%20list%202a.gtmpl))
 
 Arranges articles in a __multi-column list__, in order to scale nicely horizontally.  
 
@@ -171,38 +171,38 @@ How tall the columns are then depends on how many overall articles there are. (A
 
 ![image](https://user-images.githubusercontent.com/9139631/123289632-89020e00-d508-11eb-9b89-5f2931d2f5b8.png)
 
-### **Article list 2b** - ([GET IT HERE]())
+### **Article list 2b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%202%20(small%20multi-column)/Article%20list%202b.gtmpl))
 
 Same as above but without images. (For clients who prefer "less pictures".)  
 Very reminicent of newspaper websites.
 
 ![image](https://user-images.githubusercontent.com/9139631/123293035-8a810580-d50b-11eb-89f8-6d4c8e99049b.png)
 
-### **Article list 2c** - ([GET IT HERE]())
+### **Article list 2c** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%202%20(small%20multi-column)/Article%20list%202c.gtmpl))
 
 Same concept (adaptive multi-column article list), but with __author names__ instead of __space names__. So more suited for displaying news from _a single space_ where it would be redundant to display the same space name over and over again. ;-)  
 
 ![image](https://user-images.githubusercontent.com/9139631/123291119-ba2f0e00-d509-11eb-848e-63e8f0fec726.png)
 
-### **Article list 2d** - ([GET IT HERE]())
+### **Article list 2d** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%202%20(small%20multi-column)/Article%20list%202d.gtmpl))
 
 Same as above but without images. (For clients who prefer "less pictures".)  
 
 ![image](https://user-images.githubusercontent.com/9139631/123291361-ef3b6080-d509-11eb-9e68-2dd6b1578f0e.png)
 
-### **Article list 3a** - ([GET IT HERE]())
+### **Article list 3a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%203%20(big%20single%20column)/Article%20list%203a.gtmpl))
 
 A _bigger_ one-column article list. Ideal for an all-page blog for example.  
 
 ![image](https://user-images.githubusercontent.com/9139631/123291753-4f320700-d50a-11eb-98c4-317ac7256825.png)
 
-### **Article list 3b** - ([GET IT HERE]())
+### **Article list 3b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Article%20list%203%20(big%20single%20column)/Article%20list%203b.gtmpl))
 
 Same as above, but with author names instead of space names. So more suited for displaying news from _a single space_ where it would be redundant to display the same space name over and over again. ;-)  
 
 ![image](https://user-images.githubusercontent.com/9139631/123292465-fa42c080-d50a-11eb-8a97-6c6e2931488e.png)
 
-### **Articles cards slider 1a** - ([GET IT HERE]())
+### **Articles cards slider 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/e0e4a03dc63342d3a0837fb3384579792e77b510/Articles%20cards%20slider%201/Articles%20cards%20slider%201a.gtmpl))
 
 A horizontal slider of article cards. You can scroll through this slider by clicking the right/left scroll arrow.  
 
@@ -213,22 +213,22 @@ NOTE: If you disable "show header" through your portlet display setting, the hea
 
 ![image](https://user-images.githubusercontent.com/9139631/123297701-b9997600-d50f-11eb-95da-1b8026ab4426.png)
 
-### **Articles cards slider 1b** - ([GET IT HERE]())
+### **Articles cards slider 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Articles%20cards%20slider%201/Articles%20cards%20slider%201b.gtmpl))
 
 A variation of the above without space names. So more suited for displaying news from _a single space_ where it would be redundant to display the same space name over and over again. ;-)  
 
-### **Articles cards slider 2a** - ([GET IT HERE]())
+### **Articles cards slider 2a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Articles%20cards%20slider%202%20(stories)/Articles%20cards%20slider%202a.gtmpl))
 
 A smaller-sized (than the above) horizontal slider of article cards. Pointing your mouse on one of the cards reveals its number of reactions and views.
 This one is inspired by Facebook stories. Try it on top of an activity stream where it will look nice and familiar, and enjoy pinning your "top stories".  
 
 ![image](https://user-images.githubusercontent.com/9139631/123298809-c9658a00-d510-11eb-8a9e-f02283b30d76.png)
 
-### **Articles cards slider 2b** - ([GET IT HERE]())
+### **Articles cards slider 2b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Articles%20cards%20slider%202%20(stories)/Articles%20cards%20slider%202b.gtmpl))
 
 A variation of the above without the author picture. (To get rid of the "too much of the same face" effect where needed.)  
 
-### **Photo gallery widget** - ([GET IT HERE]())
+### **Photo gallery widget** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Photo%20gallery%20widget/Photo%20gallery%20widget.gtmpl))
 
 Sometimes a photo speaks better than words.  
 I have seen a client posting some touching "silent" photos of their elderly care providers assisting people during times of a global healthcare crisis.   
@@ -248,7 +248,7 @@ Clicking the photo switches to a full-screen mode (_this is just an overlay on t
 
 Clicking the "close" button (top left) exits the full-screen mode.
 
-### **Critical alerts ticker** - ([GET IT HERE]())
+### **Critical alerts ticker** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Critical%20alerts/Critical%20alerts%20ticker.gtmpl))
 
 Displays critical alerts in a an automatic ticker (a horizontal roller where the text is animated/rolling from right to left).  
 It's like what you see on news TV channels.  
@@ -260,7 +260,7 @@ Clicking an alert opens the news article associated with it.
 
 ![gif](https://raw.githubusercontent.com/marwenmema/exo-news-list-templates/main/docs/Critical%20alerts%20ticker%20(GIF%20demo).gif)
 
-### **Critical alerts slider** - ([GET IT HERE]())
+### **Critical alerts slider** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Critical%20alerts/Critical%20alerts%20slider.gtmpl))
 
 Same as the above, but with a slider display instead of an auto-animated ticker/roller.  
 
