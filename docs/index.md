@@ -47,7 +47,7 @@ For example:
 
 ## LIST OF TEMPLATES:
 
-### **Image slider 1a** - ([GET IT HERE]())
+### **Image slider 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/2afed70e78b355b4e877d20d0fab906724137603/Image%20slider%201/Image%20slider%201a.gtmpl))
 
 Displays articles in an automatic slideshow/carousel. The auto slide switching interval is 10 seconds. You can adjust it in the javascript snippet inside the template (look around line 432).  
 
