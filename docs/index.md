@@ -14,7 +14,7 @@ In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 
 * **MULTI-LINGUAL**: All labels (like the "See all" button) are multi-lingual and automatically appear in the user's platform language. Translations are built into the templates themselves. They are available in the following 8 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Arabic. (I'm open to adding more languages upon request.)
 
-* **Clean, pre-fixed and commented code**: (Or at least I tried.) The idea is to make it transferable to facilitate potential productization.
+* **Clean, pre-fixed and commented code**: (Or at least I tried.) The aim is to make it transferable to facilitate any potential productization.
 
 * **No external libraries/dependencies**: Relying exclusively on built-in eXo Platform resources. (REST services and built in JQuery library is invoked when needed. That's all.)
 
@@ -24,16 +24,18 @@ In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 
 * **Template variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods. For example: an article list with images, and the same without images. The former for clients who have a more image-focused design approach, and the latter for those with a more info/text-focused minimalistic approach. (From experience I know both preferences exist in the real world, hence the attempt to accomodate them both.)
 
-Features that are lacking and that I will add if people really need them and tell me that they want them:
+Features that are lacking (because I considered them as "nice to have" requirements versus the above which I considered as "must have"). I'll add them if people tell me they're really needed:
 
-* **Accessibility**: i.e. Ensuring a good accessibility score. (I didn't bother since the platform is not accessibility-compliant yet.)
+* **Accessibility**: i.e. ensuring a good accessibility score. (I didn't bother since the platform itself is not accessibility-compliant yet. But I will if it does.)
 * **Loading skeleton effects**: I've implemented it successfully in one of the templates and plan to generalize it when time permits and if people are interested.  
 * **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available (done on purpose). Let me know if you want this and for what templates.
 
 ## Video demo:
+
 I introduce the templates in this video: 
 
 ## Naming convention:
+
 The names of templates are structured as follows:  
 [Template **type**] + [a number representing **a template** under that type] + [a letter representing **a variation** on the same template]  
 
@@ -46,7 +48,7 @@ For example:
 
 ## List of templates & their descriptions:
 
-### **Image slider 1a**  [GET IT HERE]()
+### **Image slider 1a** - ([GET IT HERE]())
 
 Displays articles in an automatic slideshow/carousel. The auto slide switching interval is 10 seconds. You can adjust it in the javascript snippet inside the template (look around line 432).
 
