@@ -211,7 +211,7 @@ Clicking on the reactions (likes/comments) takes you to the news article's and s
 
 NOTE: If you disable "show header" through your portlet display setting, the header area with "Featured news" and the "See all" button will be hidden and a card will be added at the end of the slider that will be named "See all articles". The role of this card is to replace the "See all button" by keeping it possible for the user to see go browse for more articles.  
 
-![image](https://user-images.githubusercontent.com/9139631/123297701-b9997600-d50f-11eb-95da-1b8026ab4426.png)
+![image](https://user-images.githubusercontent.com/9139631/123315157-50236280-d523-11eb-89b1-9a2854333f92.png)
 
 ### **Articles cards slider 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/b05a124bab1caa980a6cb8f0b5fcdae1e2365bb1/Articles%20cards%20slider%201/Articles%20cards%20slider%201b.gtmpl))
 
