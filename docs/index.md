@@ -202,3 +202,58 @@ Same as above, but with author names instead of space names. So more suited for 
 
 ![image](https://user-images.githubusercontent.com/9139631/123292465-fa42c080-d50a-11eb-8a97-6c6e2931488e.png)
 
+### **Articles cards slider 1a** - ([GET IT HERE]())
+
+A horizontal slider of article cards. You can scroll through this slider by clicking the right/left scroll arrow.  
+
+Pointing your mouse over one of the cards displays its summary (with a nice slide-up animation).  
+Clicking on the reactions (likes/comments) takes you to the news article's and scrolls down to its likes/comments section.  
+
+NOTE: If you disable "show header" through your portlet display setting, the header area with "Featured news" and the "See all" button will be hidden and a card will be added at the end of the slider that will be named "See all articles". The role of this card is to replace the "See all button" by keeping it possible for the user to see go browse for more articles.  
+
+![image](https://user-images.githubusercontent.com/9139631/123297701-b9997600-d50f-11eb-95da-1b8026ab4426.png)
+
+### **Articles cards slider 1b** - ([GET IT HERE]())
+
+A variation of the above without space names. So more suited for displaying news from _a single space_ where it would be redundant to display the same space name over and over again. ;-)  
+
+### **Articles cards slider 2a** - ([GET IT HERE]())
+
+A smaller-sized (than the above) horizontal slider of article cards. Pointing your mouse on one of the cards reveals its number of reactions and views.
+This one is inspired by Facebook stories. Try it on top of an activity stream where it will look nice and familiar, and enjoy pinning your "top stories".  
+
+![image](https://user-images.githubusercontent.com/9139631/123298809-c9658a00-d510-11eb-8a9e-f02283b30d76.png)
+
+### **Articles cards slider 2b** - ([GET IT HERE]())
+
+A variation of the above without the author picture. (To get rid of the "too much of the same face" effect where needed.)  
+
+### **Photo gallery widget** - ([GET IT HERE]())
+
+Sometimes a photo speaks better than words.  
+I have seen a client posting some touching "silent" photos of their elderly care providers assisting people during times of a global healthcare crisis.   
+Maybe you have a "photo gallery" space where a community manager wants to share photos regularly. Or maybe you want to organize a "photo of the day" or "photo of the month" thing.  
+
+This widget is here to enable you to bring forth your latest photo in a section of your homepage for example. To share a photo, publish a little news article with an illustration image. This widget takes those articles and shows them in a stream/slider of photos (the photos are simply the illustration images of each publication/article. We want to always leverage the news feature here, not create a new feature).  
+
+![image](https://user-images.githubusercontent.com/9139631/123301269-632e3680-d513-11eb-8baa-1ce98d85ee97.png)
+
+The user can scroll through the photos using the "next" and "back" buttons:
+
+![image](https://user-images.githubusercontent.com/9139631/123302085-3b8b9e00-d514-11eb-964a-3e1665ba69e8.png)
+
+Clicking the photo switches to a full-screen mode (_this is just an overlay on the page, not a seperate page_) where the user can preview the photo, and continue to scroll back and forth between photos in full-screen:
+
+![image](https://user-images.githubusercontent.com/9139631/123302356-8c9b9200-d514-11eb-9cdd-c1550fd36fe7.png)
+
+Clicking the "close" button (top left) exits the full-screen mode.
+
+### **Critical alerts ticker** - ([GET IT HERE]())
+
+Displays critical alerts in a an automatic ticker (a horizontal roller where the text is animated/rolling from right to left).  
+It's like what you see on news TV channels.  
+
+Can be linked to an "emergency alerts" kind space and used to show important pinned alerts from it (like announcing unexpected site downtime, etc.) seperately from regular status quo news. If no alerts exist, this component disappears.
+
+Pointing your mouse over the ticker pauses the rolling/animation effect if you want to read the announcement at a slower pace.
+
