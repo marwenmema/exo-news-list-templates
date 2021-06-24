@@ -56,7 +56,7 @@ Note: If you (or your client) doesn't like the subtle auto-zoom effect on the im
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-### **Image slider 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/eb897d1452e80326322c8dfef12a8bb896de9fb7/Image%20slider%201/Image%20slider%201b.gtmpl)
+### **Image slider 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/eb897d1452e80326322c8dfef12a8bb896de9fb7/Image%20slider%201/Image%20slider%201b.gtmpl))
 
 A variation without article summary.
 
