@@ -176,7 +176,7 @@ How tall the columns are then depends on how many overall articles there are. (A
 Same as above but without images. (For clients who prefer "less pictures".)  
 Very reminicent of newspaper websites.
 
-![image](https://user-images.githubusercontent.com/9139631/123290360-1c3b4380-d509-11eb-9d0d-d159772666c5.png)
+![image](https://user-images.githubusercontent.com/9139631/123292783-4beb4b00-d50b-11eb-8343-27e857402a2c.png)
 
 ### **Article list 2c** - ([GET IT HERE]())
 
