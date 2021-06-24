@@ -31,7 +31,7 @@ Below are features that are lacking (because I had considered them as "nice to h
 
 ## VIDEO DEMO:
 
-I introduce the templates in this video: 
+I demonstrate the templates in this video: (coming soon)
 
 ## TEMPLAE NAMING CONVENTION:
 
