@@ -1,12 +1,10 @@
-# News list templates for eXo Platform
+**# News list templates for eXo Platform**
 A set of content list templates (in GTMPL code format) for displaying eXo Platform news articles. They are ready to use—as a functional admin you can add them to your eXo Platform site ([see how](https://docs.exoplatform.org/en/6.1/Administration.html#list-templates)).
 
-### Where to report issues or propose improvements for these templates?
+**### Where to report issues & propose improvements?**
 In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues) of this repo. Or talk to your eXo solutions consultant.
 
-# Overview of the templates:
-
-## Features:
+**### Features:**
 
 * **CROSS-BROWSER** (except Internet Explorer)
 
@@ -30,11 +28,11 @@ Features that are lacking (because I considered them as "nice to have" requireme
 * **Loading skeleton effects**: I've implemented it successfully in one of the templates and plan to generalize it when time permits and if people are interested.  
 * **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available (done on purpose). Let me know if you want a placeholder implemented, for which template(s) exactly, and why.
 
-## Video demo:
+**## Video demo:**
 
 I introduce the templates in this video: 
 
-## Template naming convention:
+**## Template naming convention:**
 
 The names of templates are structured as follows:  
 [Template **type**] + [a number representing **a template** under that type] + [a letter representing **a variation** on the same template]  
