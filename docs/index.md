@@ -34,7 +34,7 @@ Features that are lacking (because I considered them as "nice to have" requireme
 
 I introduce the templates in this video: 
 
-## Naming convention:
+## Template naming convention:
 
 The names of templates are structured as follows:  
 [Template **type**] + [a number representing **a template** under that type] + [a letter representing **a variation** on the same template]  
