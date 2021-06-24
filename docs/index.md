@@ -57,25 +57,21 @@ Note: If you (or your client) doesn't like the subtle auto-zoom effect on the im
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-### **Image slide 1b**  [GET IT HERE]()
+### **Image slide 1b** - ([GET IT HERE]())
 
 A variation without article summary.
 
-### **Image slider 2a**
+### **Image slider 2a** - ([GET IT HERE]())
 
 An image slider/carousel that shows more information (such as the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
 
 ![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
 
-[GET IT HERE]()
-
-### **Image slide 2b**
+### **Image slide 2b** - ([GET IT HERE]())
 
 A variation without article summary.
 
-[GET IT HERE]()
-
-### **Featured articles mosaic 1a**
+### **Featured articles mosaic 1a** - ([GET IT HERE]())
 
 A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width. For example:
 
@@ -85,29 +81,20 @@ The main variation of this templates below includes article space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
 
-[GET IT HERE]()
-
-### **Featured articles mosaic 1b**
+### **Featured articles mosaic 1b** - ([GET IT HERE]())
 
 A variation that displays publication dates instead of space names.
 
-[GET IT HERE]()
-
-### **Featured articles mosaic 1c**
+### **Featured articles mosaic 1c** - ([GET IT HERE]())
 
 A variation that displays 5 articles instead of 4, with space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274636-aae10c80-ceda-11eb-857b-f3603bbf9006.png)
 
-[GET IT HERE]()
-
-### **Featured articles mosaic 1d**  
-
+### **Featured articles mosaic 1d** - ([GET IT HERE]())
 Same as above, with publication dates instead of space names.
 
-[GET IT HERE]()
-
-### **Featured articles with highlight 1a**
+### **Featured articles with highlight 1a** - ([GET IT HERE]())
 
 Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page where you want to feature some articles (two thirds of page width works nice with this).
 
@@ -115,44 +102,32 @@ NOTE: This one is a remake the existing (as of this writing) "Latest News" templ
 
 ![image](https://user-images.githubusercontent.com/9139631/122275038-2773eb00-cedb-11eb-8812-8aea11fd3194.png)
 
-[GET IT HERE]()
-
-### **Featured articles with highlight 1b** 
+### **Featured articles with highlight 1b** - ([GET IT HERE]())
 
 A variation without the small article images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/122275264-67d36900-cedb-11eb-8e72-ea57cb47c647.png)
 
-[GET IT HERE]()
-
-### **Featured articles with highlight 2a**
+### **Featured articles with highlight 2a** - ([GET IT HERE]())
 
 Similar to the above with a little different positioning of elements.
 
 ![image](https://user-images.githubusercontent.com/9139631/123260717-cad18b00-d4ed-11eb-8b27-ee4b8b7ecc15.png)
 
-[GET IT HERE]()
-
-### **Featured articles with highlight 2b** 
+### **Featured articles with highlight 2b** - ([GET IT HERE]())
 
 A variation without the secondary images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/123261123-43d0e280-d4ee-11eb-971f-0ebc9ccb0f50.png)
 
-[GET IT HERE]()
-
-### **Featured articles with highlight 3a**
+### **Featured articles with highlight 3a** - ([GET IT HERE]())
 
 Potentially useful as an alternatif page image header.
 
 ![image](https://user-images.githubusercontent.com/9139631/123261369-98745d80-d4ee-11eb-9871-8f0fe41afd84.png)
 
-[GET IT HERE]()
-
-### **Featured articles with highlight 3b** 
+### **Featured articles with highlight 3b** - ([GET IT HERE]())
 
 A variation with 4 secondary articles instead of 3.
 
 ![image](https://user-images.githubusercontent.com/9139631/123261524-c5c10b80-d4ee-11eb-9d5a-5fb6941ffc2d.png)
-
-[GET IT HERE]()
