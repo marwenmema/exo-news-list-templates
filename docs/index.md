@@ -28,7 +28,7 @@ Features that are lacking (because I considered them as "nice to have" requireme
 
 * **Accessibility**: i.e. ensuring a good accessibility score. (I didn't bother since the platform itself is not accessibility-compliant yet. But I will if it does.)
 * **Loading skeleton effects**: I've implemented it successfully in one of the templates and plan to generalize it when time permits and if people are interested.  
-* **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available (done on purpose). Let me know if you want this and for what templates.
+* **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available (done on purpose). Let me know if you want a placeholder implemented, for which template(s) exactly, and why.
 
 ## Video demo:
 
