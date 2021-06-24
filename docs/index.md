@@ -257,4 +257,13 @@ Can be linked to an "emergency alerts" kind space and used to show important pin
 
 Pointing your mouse over the ticker pauses the rolling/animation effect if you want to read the announcement at a slower pace.
 
-![](https://raw.githubusercontent.com/marwenmema/exo-news-list-templates/main/docs/Critical%20alerts%20ticker%20(GIF%20demo).gif)
+![gif](https://raw.githubusercontent.com/marwenmema/exo-news-list-templates/main/docs/Critical%20alerts%20ticker%20(GIF%20demo).gif)
+
+### **Critical alerts slider** - ([GET IT HERE]())
+
+Same as the above, but with a slider display instead of an auto-animated ticker/roller.  
+
+It switches to the next alert every 10 seconds. And you can switch back and forth between them using the next/previous buttons.  
+
+![image](https://user-images.githubusercontent.com/9139631/123307580-91634480-d51a-11eb-990b-91407d2562fe.png)
+
