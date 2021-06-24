@@ -7,6 +7,7 @@ In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 # Overview of the templates:
 
 ## Features:
+
 * **CROSS-BROWSER** (except Internet Explorer)
 
 * **MOBILE READY**: The templates are responsive. Their responsiveness is not simply based on viewport (screen) size, but rather on container size! This means that they adapt based on the width value of the **area** of the page where you put them instead of the width of the **whole page**. [Skip the following paragraph description if you are not interested in how I implemented this.] This was a **_very_** important requirement I've set for myself when making these templates due to the nature of how they're used. Think about it: They are not static web page components, they are componants that can be placed in varying places and situations (for example on the header of a page, or squeezed in the narrow right column area of a space's home page, etc...). So their responsive break points need to be based on parent containers. Unfortunately, container-based media queries still do not exist in pure CSS. It's a major lack today in the world of CSS due to it being so tricky to implement (a lot is written on it on the internet explaining that). But it's highly anticipated by developers and we are indeed getting there. Once it becomes popular and well supported by browsers, then we can use it. Meanwhile, the best solution I have found (and have implemented in all of my templates) is this one by Philip Walton which relies on very simple vanilla JavaScript and, being reliant on [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver), has very good browser support today: [https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem](https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/)
@@ -14,9 +15,13 @@ In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues
 * **MULTI-LINGUAL**: All labels (like the "See all" button) are multi-lingual and automatically appear in the user's platform language. Translations are built into the templates themselves. They are available in the following 8 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Arabic. (I'm open to adding more languages upon request.)
 
 * **Clean, pre-fixed and commented code**: (Or at least I tried.) The idea is to make it transferable to facilitate potential productization.
+
 * **No external libraries/dependencies**: Relying exclusively on built-in eXo Platform resources. (REST services and built in JQuery library is invoked when needed. That's all.)
+
 * **Colors based on platform theme/branding**: All colors used in these templates automatically inherit your eXo Platform site's defined theme colors (see eXo's branding feature).
+
 * **Tooltips** are implemented where needed.
+
 * **Template variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods. For example: an article list with images, and the same without images. The former for clients who have a more image-focused design approach, and the latter for those with a more info/text-focused minimalistic approach. (From experience I know both preferences exist in the real world, hence the attempt to accomodate them both.)
 
 Features that are lacking and that I will add if people really need them and tell me that they want them:
@@ -41,7 +46,7 @@ For example:
 
 ## List of templates & their descriptions:
 
-### **Image slider 1a**
+### **Image slider 1a**  [GET IT HERE]()
 
 Displays articles in an automatic slideshow/carousel. The auto slide switching interval is 10 seconds. You can adjust it in the javascript snippet inside the template (look around line 432).
 
@@ -50,13 +55,9 @@ Note: If you (or your client) doesn't like the subtle auto-zoom effect on the im
 
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
-[GET IT HERE]()
-
-### **Image slide 1b**
+### **Image slide 1b**  [GET IT HERE]()
 
 A variation without article summary.
-
-[GET IT HERE]()
 
 ### **Image slider 2a**
 
