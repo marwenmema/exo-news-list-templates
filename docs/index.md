@@ -257,3 +257,4 @@ Can be linked to an "emergency alerts" kind space and used to show important pin
 
 Pointing your mouse over the ticker pauses the rolling/animation effect if you want to read the announcement at a slower pace.
 
+![](docs/Critical alerts ticker (GIF demo).gif)
