@@ -1,33 +1,29 @@
 # News list templates for eXo Platform
-A set of content list templates (in GTMPL code format) for displaying eXo Platform news articles.
-
-### How to add content list templates in my eXo Platform site?
-As a functional admin, you can easily add these templates to your eXo Platform site. See [this documentation](https://docs.exoplatform.org/en/6.1/Administration.html#list-templates).  
-For more information and/or help, contact your eXo solutions consultant. To discuss your solutions consulting services credit, you may reach out to your eXo client success representative.
+A set of content list templates (in GTMPL code format) for displaying eXo Platform news articles. They are ready to use—as a functional admin you can add them to your eXo Platform site ([see how](https://docs.exoplatform.org/en/6.1/Administration.html#list-templates)).
 
 ### Where to report issues or propose improvements for these templates?
-In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues) of this repo. Or talk to your eXo solutions consultant (see above).
+In the [issues tab](https://github.com/marwenmema/exo-news-list-templates/issues) of this repo. Or talk to your eXo solutions consultant.
 
 # Overview of the templates:
 
 ## Features:
-* **Cross-browser support** (except IE)
-* **Mobile-ready**: The templates are responsive. Their responsiveness is not simply based on viewport (screen) size, but rather on container size! This means that they adapt based on the width value of the **area** of the page where you put them instead of the width of the **whole page**. [Skip the following paragraph description if you are not interested in how I implemented this.] This was a **_very_** important requirement I've set for myself when making these templates due to the nature of how they're used. Think about it: They are not static web page components, they are componants that can be placed in varying places and situations (for example on the header of a page, or squeezed in the narrow right column area of a space's home page, etc...). So their responsive break points need to be based on parent containers. Unfortunately, container-based media queries still do not exist in pure CSS. It's a major lack today in the world of CSS due to it being so tricky to implement (a lot is written on it on the internet explaining that). But it's highly anticipated by developers and we are indeed getting there. Once it becomes popular and well supported by browsers, then we can use it. Meanwhile, the best solution I have found (and have implemented in all of my templates) is this one by Philip Walton which relies on very simple vanilla JavaScript and, being reliant on [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver), has very good browser support today: [https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem](https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/)
-* **Clean, pre-fixed and commented code**: Or at least I tried. The idea is to make it transferable to facilitate potential productization.
-* **No external libraries/dependencies**: Relying exclusively on built in eXo Platform resources. (The platform's REST services are leveraged when needed and its built-in JQuery library is invoked when needed. That's it.)
-* **Colors are based on platform theme/branding variables**: Colors used in these templates automatically inherit to your eXo Platform site's theme colors (see eXo's branding feature).
-* **Tooltips** are implemented wherever needed.
-* **Variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods. For example: an article list with images, and the same without images. The former for clients who have a more image-focused design approach, and the latter for those with a more info/text-focused minimalistic approach. (From experience I know both preferences exist in the real world, hence the attempt to accomodate them both.)
+* **CROSS-BROWSER** (except Internet Explorer)
+* **MOBILE READY**: The templates are responsive. Their responsiveness is not simply based on viewport (screen) size, but rather on container size! This means that they adapt based on the width value of the **area** of the page where you put them instead of the width of the **whole page**. [Skip the following paragraph description if you are not interested in how I implemented this.] This was a **_very_** important requirement I've set for myself when making these templates due to the nature of how they're used. Think about it: They are not static web page components, they are componants that can be placed in varying places and situations (for example on the header of a page, or squeezed in the narrow right column area of a space's home page, etc...). So their responsive break points need to be based on parent containers. Unfortunately, container-based media queries still do not exist in pure CSS. It's a major lack today in the world of CSS due to it being so tricky to implement (a lot is written on it on the internet explaining that). But it's highly anticipated by developers and we are indeed getting there. Once it becomes popular and well supported by browsers, then we can use it. Meanwhile, the best solution I have found (and have implemented in all of my templates) is this one by Philip Walton which relies on very simple vanilla JavaScript and, being reliant on [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver), has very good browser support today: [https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem](https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/)
+* **MULTI-LINGUAL**: All labels (like the "See all" button) are multi-lingual and automatically appear in the user's platform language. Translations are built into the templates themselves. They are available in the following 8 languages: English, French, Spanish, German, Italian, Portuguese, Russian, Arabic. (I'm open to adding more languages upon request.)
+* **Clean, pre-fixed and commented code**: (Or at least I tried.) The idea is to make it transferable to facilitate potential productization.
+* **No external libraries/dependencies**: Relying exclusively on built-in eXo Platform resources. (REST services and built in JQuery library is invoked when needed. That's all.)
+* **Colors based on platform theme/branding**: All colors used in these templates automatically inherit your eXo Platform site's defined theme colors (see eXo's branding feature).
+* **Tooltips** are implemented where needed.
+* **Template variations** I tried to provide what I felt might be useful variations on the same templates. The goal is to facilitate accomodating client preferences without having to mess with CSS mods. For example: an article list with images, and the same without images. The former for clients who have a more image-focused design approach, and the latter for those with a more info/text-focused minimalistic approach. (From experience I know both preferences exist in the real world, hence the attempt to accomodate them both.)
 
-Features that are lacking and that I want to add in the future and if people tell me they want them:
+Features that are lacking and that I will add if people really need them and tell me that they want them:
 
-* **Accessibility**: i.e. Ensuring a good accessibility score.   
+* **Accessibility**: i.e. Ensuring a good accessibility score. (I didn't bother since the platform is not accessibility-compliant yet.)
 * **Loading skeleton effects**: I've implemented it successfully in one of the templates and plan to generalize it when time permits and if people are interested.  
-* **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available.  
-* **Multi-lingual support for labels like "See all"**: Right now labels like that are hard coded in the templates. You can change them manually. For true multi-lingual support, I'm leaving that for if these get productized. But then again, something like the "header name" that are exposed in CLV display parameters (and which most of my templates support, so they are not hard-coded) are not multi-lingual by design at this time (product limitation). So there isn't really true multi-lingual support either way.
+* **Placeholder when no articles are available yet**: Right now nothing is shown when no articles are available (done on purpose). Let me know if you want this and for what templates.
 
 ## Video demo:
-I introduce the templates in this video:
+I introduce the templates in this video: 
 
 ## Naming convention:
 The names of templates are structured as follows:  
@@ -128,5 +124,40 @@ NOTE: This one is an improvement upon the existing (as of this writing) "Latest 
 A variation without the small article images. (For clients who prefer "less pictures".)
 
 ![image](https://user-images.githubusercontent.com/9139631/122275264-67d36900-cedb-11eb-8e72-ea57cb47c647.png)
+
+[GET IT HERE]()
+
+**Featured articles with highlight 2a**
+
+Similar to the above with a little different positioning of elements.
+
+![image](https://user-images.githubusercontent.com/9139631/123260717-cad18b00-d4ed-11eb-8b27-ee4b8b7ecc15.png)
+
+[GET IT HERE]()
+
+**Featured articles with highlight 2b** 
+
+A variation without the secondary images. (For clients who prefer "less pictures".)
+
+![image](https://user-images.githubusercontent.com/9139631/123261123-43d0e280-d4ee-11eb-971f-0ebc9ccb0f50.png)
+
+[GET IT HERE]()
+
+**Featured articles with highlight 3a**
+
+Potentially useful as an alternatif page image header.
+
+![image](https://user-images.githubusercontent.com/9139631/123261369-98745d80-d4ee-11eb-9871-8f0fe41afd84.png)
+
+[GET IT HERE]()
+
+**Featured articles with highlight 3b** 
+
+A variation with 4 secondary articles instead of 3.
+
+![image](https://user-images.githubusercontent.com/9139631/123261524-c5c10b80-d4ee-11eb-9d5a-5fb6941ffc2d.png)
+
+
+
 
 [GET IT HERE]()
