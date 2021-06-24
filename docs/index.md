@@ -38,88 +38,80 @@ For example:
 
 ## List of templates & their descriptions:
 
-### Image slider 1:
+### **Image slider 1a**
 
 Displays articles in an automatic slideshow/carousel. The auto slide switching interval is 10 seconds. You can adjust it in the javascript snippet inside the template (look around line 432).
 
 NOTE: This is an improvement upon the existing (as of this writing) "news slider" template in eXo Platform.
 Note: If you (or your client) doesn't like the subtle auto-zoom effect on the images, you can deactivate it (take a look at the CSS code around line 117). My intention was to make the slider feel alive and calling for some attention without being too distracting.
 
-**Image slider 1a**
-
 ![image](https://user-images.githubusercontent.com/9139631/122273824-c992d380-ced9-11eb-899b-897883156ea2.png)
 
 [GET IT HERE]()
 
-**Image slide 1b**
+### **Image slide 1b**
 
 A variation without article summary.
 
 [GET IT HERE]()
 
-### Image slider 2:
+### **Image slider 2a**
 
-Similar to the above, except this one shows more information (like the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
-
-**Image slider 2a**
+An image slider/carousel that shows more information (such as the article's space name) and is better suited for less wide areas such as half or 2/3 of the web page. 
 
 ![image](https://user-images.githubusercontent.com/9139631/122273521-6b65f080-ced9-11eb-89e0-8bad19107870.png)
 
 [GET IT HERE]()
 
-**Image slide 2b**
+### **Image slide 2b**
 
 A variation without article summary.
 
 [GET IT HERE]()
 
-### Featured articles mosaic 1:
+### **Featured articles mosaic 1a**
 
 A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width. For example:
 
 ![image](https://user-images.githubusercontent.com/9139631/122273257-23df6480-ced9-11eb-8220-7c5535abcd57.png)
 
-**Featured articles mosaic 1a**
-
-Main variation displaying article space names.
+The main variation of this templates below includes article space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
 
 [GET IT HERE]()
 
-**Featured articles mosaic 1b**
+### **Featured articles mosaic 1b**
 
-A variation displaying publication dates instead of space names.
+A variation that displays publication dates instead of space names.
 
 [GET IT HERE]()
 
-**Featured articles mosaic 1c**
+### **Featured articles mosaic 1c**
 
-Displays 5 articles instead of 4, with space names.
+A variation that displays 5 articles instead of 4, with space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274636-aae10c80-ceda-11eb-857b-f3603bbf9006.png)
 
 [GET IT HERE]()
 
-**Featured articles mosaic 1d**  
+### **Featured articles mosaic 1d**  
 
-Displays 5 articles instead of 4, with publication dates instead of space names.
+Same as above, with publication dates instead of space names.
 
 [GET IT HERE]()
 
-### Featured articles with highlight 1:
+### **Featured articles with highlight 1a**
 
 Displays a set of featured articles, with the latest one being more highlighted (hence the name). Suitable for use in a section of a page where you want to feature some articles (two thirds of page width works nice with this).
 
-NOTE: This one is an improvement upon the existing (as of this writing) "Latest News" template in eXo Platform.
-
-**Featured articles with highlight 1a**
+NOTE: This one is a remake the existing (as of this writing) "Latest News" template in eXo Platform which I find has some UI issues (inconsistent paddings, no mouse-over effects, titles that truncate too soon/in just one line, etc...). This remake addresses those issues and provides variations based on client feedback that I've had about this template.
 
 ![image](https://user-images.githubusercontent.com/9139631/122275038-2773eb00-cedb-11eb-8812-8aea11fd3194.png)
 
 [GET IT HERE]()
 
-**Featured articles with highlight 1b** 
+### **Featured articles with highlight 1b** 
 
 A variation without the small article images. (For clients who prefer "less pictures".)
 
@@ -127,7 +119,7 @@ A variation without the small article images. (For clients who prefer "less pict
 
 [GET IT HERE]()
 
-**Featured articles with highlight 2a**
+### **Featured articles with highlight 2a**
 
 Similar to the above with a little different positioning of elements.
 
@@ -135,7 +127,7 @@ Similar to the above with a little different positioning of elements.
 
 [GET IT HERE]()
 
-**Featured articles with highlight 2b** 
+### **Featured articles with highlight 2b** 
 
 A variation without the secondary images. (For clients who prefer "less pictures".)
 
@@ -143,7 +135,7 @@ A variation without the secondary images. (For clients who prefer "less pictures
 
 [GET IT HERE]()
 
-**Featured articles with highlight 3a**
+### **Featured articles with highlight 3a**
 
 Potentially useful as an alternatif page image header.
 
@@ -151,13 +143,10 @@ Potentially useful as an alternatif page image header.
 
 [GET IT HERE]()
 
-**Featured articles with highlight 3b** 
+### **Featured articles with highlight 3b** 
 
 A variation with 4 secondary articles instead of 3.
 
 ![image](https://user-images.githubusercontent.com/9139631/123261524-c5c10b80-d4ee-11eb-9d5a-5fb6941ffc2d.png)
-
-
-
 
 [GET IT HERE]()
