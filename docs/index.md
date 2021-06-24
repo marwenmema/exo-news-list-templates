@@ -70,7 +70,7 @@ An image slider/carousel that shows more information (such as the article's spac
 
 A variation without article summary.
 
-### **Featured articles mosaic 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201a.gtmpl)
+### **Featured articles mosaic 1a** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201a.gtmpl))
 
 A small grid/mosaic of articles, suitable for displaying featured articles at the top of a page at about two thirds of the page width. For example:
 
@@ -80,7 +80,7 @@ The main variation of this templates below includes article space names.
 
 ![image](https://user-images.githubusercontent.com/9139631/122274507-838a3f80-ceda-11eb-93e8-015b314a435c.png)
 
-### **Featured articles mosaic 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201b.gtmpl)
+### **Featured articles mosaic 1b** - ([GET IT HERE](https://github.com/marwenmema/exo-news-list-templates/blob/62250c7bd995f2471deeaf498b323d423f920b9e/Featured%20articles%20mosaic%201/Featured%20articles%20mosaic%201b.gtmpl))
 
 A variation that displays publication dates instead of space names.
 
