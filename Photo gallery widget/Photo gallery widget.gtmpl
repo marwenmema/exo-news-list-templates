@@ -420,7 +420,27 @@ if (uicomponent.getUIPageIterator().getAvailable() > 0) {
     <div class="header-area">
       <div class="header-txt">$header</div>
       <a class="seeAll-btn" target="_self" href="/portal/g/:spaces:photo_gallery">
-      	<div class="seeAll-btn-text">See all</div>
+        <%
+        def seeAllBtn = "";
+        if (language.equals("fr")) {
+          seeAllBtn = "Voir tout";
+        } else if (language.equals("de")) {
+          seeAllBtn = "Alles sehen";
+        } else if (language.equals("es")) {
+          seeAllBtn = "Ver todo";
+        } else if (language.equals("it")) {
+          seeAllBtn = "Vedi tutto";
+        } else if (language.equals("pt")) {
+          seeAllBtn = "Ver tudo";
+        } else if (language.equals("ru")) {
+          seeAllBtn = "Увидеть все";
+        } else if (language.equals("ar")) {
+          seeAllBtn = "إظهار الكل";
+        } else {
+          seeAllBtn = "See all";
+        }
+        %>
+      	<div class="seeAll-btn-text">$seeAllBtn</div>
       </a>
     </div>
     <%
@@ -684,7 +704,7 @@ require(['SHARED/jquery'], function(jquery) {
 		}, 200);
 		} else {
 		setTimeout(function(){
-		move(3);
+		move(0);
 		}, 200);
 		}
 	});
