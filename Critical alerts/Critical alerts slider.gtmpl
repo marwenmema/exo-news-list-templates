@@ -69,11 +69,11 @@ if (uicomponent.getUIPageIterator().getAvailable() > 0) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #e14f4f;
+  background-color: var(--allPagesPrimaryColor,#578dc9);
   height: 50px;
   width: 100%;
   overflow: hidden;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 #critical-alerts-slider .ticker-header {
   display: -webkit-box;
@@ -84,7 +84,7 @@ if (uicomponent.getUIPageIterator().getAvailable() > 0) {
           align-items: center;
   height: 100%;
   color: #fff;
-  background-color: var(--allPagesSecondaryColor,#476a9c);
+  background-color: #e14f4f;
   z-index: 1;
 }
 #critical-alerts-slider .ticker-icon {
@@ -149,9 +149,9 @@ if (uicomponent.getUIPageIterator().getAvailable() > 0) {
 }
 #critical-alerts-slider .slide-date {
   white-space: nowrap;
-  color: var(--allPagesSecondaryColor,#476a9c);
-  font-size: 12px;
+  color: #fff;
   letter-spacing: 0;
+  text-transform: capitalize;
   margin-top: 1px;
 }
 #critical-alerts-slider .slide-seperator {
@@ -172,7 +172,6 @@ if (uicomponent.getUIPageIterator().getAvailable() > 0) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e14f4f;
   width: 85px;
 }
 #critical-alerts-slider .previous-btn,
