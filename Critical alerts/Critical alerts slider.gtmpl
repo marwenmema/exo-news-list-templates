@@ -51,7 +51,7 @@ def workspace = "";
 def uuid = "";
 def siteName = org.exoplatform.portal.webui.util.Util.getPortalRequestContext().getPortalOwner();
 Locale locale = WebuiRequestContext.getCurrentInstance().getLocale();
-def mediumDateFormat = DateTimeFormatter.ofPattern("MMMM d, h:m a").withLocale(locale);
+def mediumDateFormat = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM, FormatStyle.SHORT).withLocale(locale);
 
 def language = locale.getLanguage();
 def draftMsg = _ctx.appRes("PublicationStates.draft");
